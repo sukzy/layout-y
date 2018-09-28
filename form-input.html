@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Layout-Y.</title>
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="page-header text-center">
+          <h1>{ JUDUL APP. }</h1>
+        </div>
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <ul class="nav nav-tabs nav-justified">
+              <li><a href="#">MENU 0</a></li>
+              <li><a href="#">MENU 1</a></li>
+              <li><a href="#">MENU 2</a></li>
+              <li><a href="#">MENU 3</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>
+                TAMBAH DATA
+                <a href="form-data.html" class="btn btn-danger">Kembali</a>
+              </h4>
+            </div>
+            <div class="panel-body">
+              <form action="index.html" method="post">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="judul" placeholder="Judul Buku">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" name="lainnya" placeholder="Input lain...">
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="jenis_buku">
+                    <option>--PILIH JENIS BUKU--</option>
+                    <option value="mapel">Matapelajaran</option>
+                    <option value="komik">Komik</option>
+                    <option value="novel">Novel</option>
+                  </select>
+                </div>
+                <button class="btn btn-success" type="submit" name="simpan">SIMPAN</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
